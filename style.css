@@ -1,0 +1,28 @@
+/* element level  */
+/* first method to call them  */
+/* h1{
+    color :aliceblue
+    text:
+
+} */
+/* when we highlight h1 so it highlights all the h1 tag so when we highlight the specific h1 tag so we use class and id  id for specific person 
+elements and class is used for more elements */
+/* we use # for id 
+. for class */
+
+/* when css link with more html files called externel level */
+
+
+/* this is external type */
+h1{
+    background-color: aqua;
+}
+#myid{
+    background-color: rgb(181, 181, 197);
+}
+.myclass{
+    background-color: rgb(rgb(94, 61, 61), rgb(35, 99, 35), rgb(116, 116, 175));
+}
+
+/* internal use in head 
+inline use i attribute */
