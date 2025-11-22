@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Innovations</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; 
+            color: #333; 
+            text-align: center;
+            margin: 0;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #2c3e50; 
+            margin-top: 20px;
+        }
+
+        .banner {
+            margin: 20px 0;
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+        }
+
+        p {
+            font-size: 18px;
+            color: #34495e;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+            background-color: #ecf0f1; 
+        }
+
+        table th, table td {
+            border: 1px solid #2c3e50;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        table th {
+            background-color: #3498db; 
+            color: white;
+        }
+
+        
+        form {
+            background-color: #ffffff; 
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        form label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        form input[type="text"],
+        form input[type="email"] {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #2980b9; 
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Website Title -->
+    <div>
+        <h1><b>Stellar Innovations</b></h1>
+    </div>
+
+    <!-- Logo -->
+    <div>
+        <img class="logo" src="825180_preview.jpg" alt="logo2" width="120">
+    </div>
+
+    <!-- Banner Image -->
+    <div>
+        <img class="banner" src="Banner.png" alt="banner1" width="1000">
+    </div>
+
+    <!-- About Section -->
+    <div>
+        <p>
+            I am <b>Noor e Maryam</b>. This is <b>Stellar Innovations</b>. 
+            This company is about <b>IT solutions</b>. 
+            It is an <b>IT consultant software house</b>.
+        </p>
+    </div>
+
+    <!-- Education Table -->
+    <h2><b>Education & Experience</b></h2>
+    <table>
+        <tr>
+            <th><b>Education</b></th>
+            <th><b>Experience</b></th>
+        </tr>
+        <tr>
+            <td><b>Graduation</b></td>
+            <td>2 years</td>
+        </tr>
+        <tr>
+            <td><b>P.H.D</b></td>
+            <td>4 years</td>
+        </tr>
+    </table>
+
+    <!-- Contact Form -->
+    <h2><b>Contact Form</b></h2>
+
+    <div>
+        <form action="" method="get" class="form-example">
+
+            <div class="form-example">
+                <label for="name"><b>Enter your first name:</b></label><br>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class="form-example">
+                <label for="email"><b>Enter your email:</b></label><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="form-example">
+                <label for="name2"><b>Enter the message you want:</b></label><br>
+                <input type="text" name="name2" id="name2" required>
+            </div>
+
+            <div class="form-example">
+                <input type="submit" value="Subscribe!">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

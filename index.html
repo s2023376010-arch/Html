@@ -1,104 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!-- inline is used between tages . we write css in opeining tag attribute e.g <p style use krein gy  (tailword,bootstamp uses)
+internal in head tag we make style and then in style write css
+external we make  style.css
+ways to use css through elements,id , class
+elmets
+id  #
+class repesent by .
+
+Id or class is defined in tag 
+<h1 id="myid"
+    class="my classid" -->
+
+
+<!-- inline --> priority inline ko hoti 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- header ,section,footer,nor -->
-    <button>click me</button>
-    <!-- anchor tag is imp before using button tag -->
-    <a href="https://github.com/s2023376010-arch/Html/blob/main/index.html"><button>github page</button></a>
+ </head>
+ <body>
+    <!-- inline -->
+    <h1 style="background-color: aqua;">Heading 1</h1>
+    <h1 id="myid">Heading 2</h1>
+    <h1 class="my class">Heading 3 </h1>
 
-<!-- e make form through form tag    like we ask about name,dob,age,city  -->
-<!-- form has 2 things label and input  -->
-<!-- label means like age ,city and input means the input u enter  -->
-<!-- get is used to retrvire ,post is used to write sensitive data we see the differ between get and post  -->
-<!-- post has sensitive data and gat has formal data -->
-<!-- action means form where kha jaa rha ,kha submit ho rha mesna agr database mai jaye to direct database mai nhi jaa
-     skta to phly scrip mai jaye ga .action define submit kha hona form -->
-<!-- action means in which type form store -->
-<!-- label has for attribute .label has independent no lena dena kisi sy .1 form has multiple labels . for is fanme like when 
-    we click fname or first name ot clicks . 
-    for and id name are always same.place holder is the text u enter to inform what is the data u fill inside the box   -->
-    <!-- we have multiple inputts not only text . we have numbers ,color, chkpost so we use type in this . -->
-<br/>
-<form action="" method="get">
-    <label for="fname">Fist name</label>
-    <input type="text" name="fname" id="fname"
-    placeholder="Enter first name">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="lname">Last name</label>
-    <input type="text" name="lname" id="lname"
-    placeholder="Enter last name">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="Gender">Male</label>
-    <input type="checkbox" name="Gender" id="Gender"
-    placeholder="Enter Gender">
-    <label for="Gender">Female</label>
-    <input type="checkbox" name="Gender" id="Gender"
-    placeholder="Enter Gender">
-</form>    
-<br/>
-<form action="" method="get">
-    <label for="city">City</label>
-    <input type="text" name="city" id="city"
-    placeholder="Enter city">
-</form>    
-<br/>
-<form action="" method="get">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email"
-    placeholder="Enter your email">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="date">Date</label>
-    <input type="date" name="date" id="date"
-    placeholder="Enter Date">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="age">Age</label>
-    <input type="number" name="age" id="myid"
-    placeholder="Enter your age">
-</form>
-</form>
-<br/>
-<form action="" method="get">
-    <label for="COL">Color u like</label>
-    <input type="color" name="COL" id="Col"
-    placeholder="Colour u like">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="fil">Upload Resume</label>
-    <input type="file" name="fil" id="fil"
-    placeholder="Attach your CV here">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="hid">your password here </label>
-    <input type="hidden" name="hid" id="hid">
-</form>
-<br/>
-<form action="" method="get">
-    <label for="img" for="fil">Upload Image from file </label>
-    <input type="image" name="img" id="img"
-           type="file" name="fil" id="fil"
-    placeholder="Upload your image here">
-</form>
+ <!-- for frameworks u se inline
+ for customs use external  -->
 
-</body>
-</html>
-<!-- 
-we have three types of css  paint+ design
-1.inline 2.Enternal  3. External  -->
-<!-- in head tag html and css apply -->
+ <!-- for content make button content comes 
+ every content ky sath 1 border hota ha . it is invisible and when we want to disply it disply so it has 2 things (margin and padding )
+ for allign . when we have space between border and content called padding  -->
+
+  #myid
+  {
+    background-color: red;
+    border: 5px solid black;
+    padding-left: 100px;
+    margin-top: 50px;
+  }
+
+  .myclass{
+    background-color: azure;
+  }
+
+  <!-- font 
+  shadows
+  border -->
+ <!-- colors are predefines that give htmla nd css . so we need the extra color so we need (hex) color  -->
+
+ </body>
+ </html>
+ 
