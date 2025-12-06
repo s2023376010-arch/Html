@@ -1,28 +1,61 @@
-/* element level  */
-/* first method to call them  */
-/* h1{
-    color :aliceblue
-    text:
-
-} */
-/* when we highlight h1 so it highlights all the h1 tag so when we highlight the specific h1 tag so we use class and id  id for specific person 
-elements and class is used for more elements */
-/* we use # for id 
-. for class */
-
-/* when css link with more html files called externel level */
-
-
-/* this is external type */
-h1{
-    background-color: aqua;
-}
-#myid{
-    background-color: rgb(181, 181, 197);
-}
-.myclass{
-    background-color: rgb(rgb(94, 61, 61), rgb(35, 99, 35), rgb(116, 116, 175));
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* internal use in head 
-inline use i attribute */
+.container {
+    display: grid;
+    
+    grid-template-areas:
+        "header header header"
+        "sidebar content1 content1"
+        "sidebar content2 content3"
+        "footer footer footer";
+
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: auto 200px 200px auto;
+
+    gap: 15px;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    background: #57381ce3;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #331903c2;
+    padding: 20px;
+}
+
+.content1 {
+    grid-area: content1;
+    background: #57381c98;
+    padding: 20px;
+}
+
+.content2 {
+    grid-area: content2;
+    background: #57381c98;
+    padding: 20px;
+}
+
+.content3 {
+    grid-area: content3;
+    background: #57381c98;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background:#57381ce3;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
